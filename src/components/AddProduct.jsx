@@ -9,7 +9,9 @@ const AddProduct = ({ setter, fromChild }) => {
 						<div className="relative w-auto my-6 mx-auto max-w-3xl">
 							<div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
 								<div className="flex items-start justify-between p-5 border-b border-solid border-gray-300 rounded-t ">
-									<h3 className="text-3xl font=semibold">General Info</h3>
+									<h3 className="text-3xl font=semibold">
+										DASHBOARD PRODUK JUAL MAKANAN DAN TOKO ELEKTRONIK
+									</h3>
 									<button
 										className="bg-transparent border-0 text-black float-right"
 										onClick={() => setShowModal(false)}
@@ -19,6 +21,13 @@ const AddProduct = ({ setter, fromChild }) => {
 										</span>
 									</button>
 								</div>
+				<div className="bg-primari">
+					<div className="row">
+						<div className="col-md-2">
+				Produk digital 
+				</div>
+					</div>
+				</div>
 								<div className="relative p-6 flex-auto">
 									<form className="bg-gray-200 shadow-md rounded px-8 pt-6 pb-8 w-full">
 										<label className="block text-black text-sm font-bold mb-1">First Name</label>

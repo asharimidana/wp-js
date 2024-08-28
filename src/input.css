@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.inset-center {
+	position: relative;
+	top: 1000;
+	left: 0;
+}

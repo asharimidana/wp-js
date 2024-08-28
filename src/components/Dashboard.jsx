@@ -25,12 +25,12 @@ const Dashboard = () => {
 	};
 
 	return (
-		<div className="dashboard  bg-yellow-300">
+		<div className="dashboard  bg-yellow-500">
 			{add ? <AddProduct setter={add} fromChild={fromChild} /> : null}
-			<div className="border pl-1 py-1">
-				<h3 className="text-white">Dashboard</h3>
+			<div className="border pl-1 py-4">
+				<h3 className="text-white">TOKO PENJUALAN LAPTOP KENDARI</h3>
 				<p>
-					dit Dashboard component at <code>src/components/Dashboard.jsx</code>
+					contoh Dashboard component at <code>src/components/Dashboard.jsx</code>
 				</p>
 
 				<button
